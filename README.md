@@ -36,7 +36,7 @@ To set-up, run make. It has been tested to work on an Ubuntu system and a MacOSX
 
 ## Appendix
 
-```
+```cpp
 
 void sendTcpSynPacket(std::string & dstAddr) {
   int connection = getConnection();
